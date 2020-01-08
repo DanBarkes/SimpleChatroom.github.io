@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.chat-rooms {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+.container{
+  max-width: 600px;
+}
+
+.container my-4 {
+  background-color: rgba(151, 142, 142, 0.082);
+}
+
+.btn{
+  background: #43d9be;
+  color: white;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn:focus{
+  outline: none !important;
+}
+
+.username { 
+  font-weight: bold;
+
+}
+
+.time {
+  font-size: 0.7em;
+  color: #999;
+}
+
+.update-mssg {
+  text-align: center;
+  margin: 20px auto;
+}
